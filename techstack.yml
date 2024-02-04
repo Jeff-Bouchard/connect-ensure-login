@@ -1,0 +1,69 @@
+repo_name: Jeff-Bouchard/connect-ensure-login
+report_id: d453999130a4267d824f32faefba760f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T14:48:36+00:00'
+requested_by: jaredhanson
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Jeff-Bouchard/connect-ensure-login
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/connect-ensure-login
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/connect-ensure-login/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Jared Hanson
+  last_updated_on: 2012-06-29 15:33:37.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Jeff-Bouchard/connect-ensure-login/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jared Hanson
+  last_updated_on: 2012-06-29 15:26:01.000000000 Z
+- name: vows
+  description: Asynchronous BDD &amp; continuous integration for node.js
+  package_url: https://www.npmjs.com/vows
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16365/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/Jeff-Bouchard/connect-ensure-login/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jared Hanson
+  last_updated_on: 2012-06-29 15:26:01.000000000 Z
